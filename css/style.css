@@ -1,0 +1,304 @@
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+img, video {
+  max-width: 100%;
+  height: auto;
+}
+
+/**
+* Typography: Headings, body text, lists, code, and more for a versatile and durable typography system.
+*/
+body {
+  font-family: "Droid Serif", serif;
+  font-size: 18px;
+  line-height: 1.5em;
+}
+
+a:link {
+  color: #2090b4;
+}
+a:visited {
+  color: #2090b4;
+}
+
+ul ul,
+ul ol,
+ol ol,
+ol ul {
+  margin-bottom: 0;
+}
+
+hr {
+  height: 1px;
+  border: 1px solid #666;
+  padding-bottom: -1px;
+  margin: 1em 0;
+}
+
+strong {
+  font-weight: bold;
+}
+
+em {
+  font-style: italic;
+}
+
+::-moz-selection {
+  background: #66b360;
+  color: white;
+  text-shadow: none;
+}
+
+::selection {
+  background: #66b360;
+  color: white;
+  text-shadow: none;
+}
+
+/**
+ * Form elements: Inputs, buttons, etc.
+ */
+input,
+button,
+select,
+textarea {
+  font-family: Arial, Helvetica, "Nimbus Sans L", sans-serif;
+}
+
+/**
+ * @file _print.scss
+ */
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  background: #fcfcfc;
+}
+
+.grid-3 {
+  background: #3a3842;
+  box-shadow: 0 0 10px black;
+  width: 100%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none;
+}
+.grid-3 .pane-system-main-menu {
+  text-align: center;
+}
+.grid-3 .pane-system-main-menu .menu {
+  width: 100%;
+  display: inline-block;
+  list-style-type: none;
+  text-align: center;
+  padding-top: 1em;
+  padding: 0;
+}
+.grid-3 .pane-system-main-menu .menu li {
+  float: left;
+  list-style: none;
+  margin: 0;
+  width: 33%;
+}
+.grid-3 .pane-system-main-menu .menu li :hover {
+  background: #dccf63;
+  margin: 0;
+}
+.grid-3 .pane-system-main-menu .menu li :hover a {
+  color: black;
+}
+.grid-3 .pane-system-main-menu .menu a {
+  font-family: "Open Sans Condensed", sans-serif;
+  color: white;
+  text-decoration: none;
+  font-size: 150%;
+  text-transform: uppercase;
+  line-height: 2em;
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+.grid-3 .pane-menu-menu-submenu {
+  text-align: center;
+}
+.grid-3 .pane-menu-menu-submenu .menu {
+  display: inline-block;
+  list-style-type: none;
+}
+.grid-3 .pane-menu-menu-submenu .menu li {
+  float: left;
+  list-style: none;
+}
+.grid-3 .pane-menu-menu-submenu .menu .icon {
+  clear: both;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  padding-top: 8px;
+  border: 1px solid none;
+}
+.grid-3 .pane-menu-menu-submenu .menu .title {
+  display: none;
+}
+.grid-3 .pane-menu-menu-submenu .menu a {
+  font-family: "Open Sans Condensed", sans-serif;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.grid-3 .pane-menu-menu-submenu .menu a :hover {
+  background: #dccf63;
+  border: 1px solid none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  color: black;
+}
+@media (max-width: 48em) {
+  .grid-3 .pane-responsive-dropdown-menus-main-menu {
+    display: block;
+    float: left;
+    padding-top: 1em;
+    padding-left: 1em;
+    font-family: "Open Sans Condensed", sans-serif;
+    color: white;
+    text-transform: uppercase;
+  }
+  .grid-3 .pane-responsive-dropdown-menus-main-menu .toggle-help {
+    width: 100px;
+  }
+  .grid-3 .pane-responsive-dropdown-menus-main-menu .main-menu li.menu-item a {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 0.25em;
+    width: 100%;
+    text-align: center;
+  }
+  .grid-3 .pane-responsive-dropdown-menus-main-menu .main-menu li.menu-item :hover {
+    background: #dccf63;
+    color: black;
+  }
+  .grid-3 .pane-menu-menu-submenu .menu {
+    padding: 0;
+    float: right;
+    display: block;
+    width: 60px;
+  }
+  .grid-3 .pane-system-main-menu {
+    display: none;
+  }
+}
+.grid-3 .pane-page-logo {
+  width: 300px;
+  height: 300px;
+  left: 50%;
+  margin-left: -135px;
+  position: absolute;
+}
+.grid-3 .pane-page-logo .pane-content {
+  padding: 0.25em;
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+}
+.grid-3 .pane-page-logo img {
+  width: 200px;
+  height: auto;
+  border: 2px solid white;
+  border-radius: 100px;
+  display: block;
+  margin: 0 auto;
+}
+@media (min-width: 48.0625em) {
+  .grid-3 {
+    width: 23.40426%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0;
+    clear: none;
+    height: 100%;
+    position: fixed;
+    margin-right: 33%;
+    padding-top: 2em;
+  }
+  .grid-3 .pane-responsive-dropdown-menus-main-menu {
+    display: none;
+  }
+  .grid-3 .pane-page-logo {
+    position: relative;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+    left: 0;
+  }
+  .grid-3 .pane-page-logo .pane-content {
+    width: 95%;
+  }
+  .grid-3 .pane-page-logo img {
+    margin: 0;
+    width: 300px;
+    height: auto;
+    border: 2px solid white;
+    border-radius: 150px;
+  }
+  .grid-3 .pane-fblikebutton-fblikebutton-static-block .pane-content iframe {
+    margin: 0 auto;
+    display: block;
+  }
+  .grid-3 .pane-system-main-menu {
+    display: block;
+  }
+  .grid-3 .pane-system-main-menu .menu li {
+    width: 100%;
+    padding: 0;
+  }
+  .grid-3 .pane-system-main-menu .menu a:hover {
+    color: black;
+  }
+  .grid-3 .pane-menu-menu-submenu {
+    text-align: justify;
+  }
+  .grid-3 .pane-menu-menu-submenu .menu {
+    padding: 0;
+    width: 100%;
+    text-align: center;
+  }
+  .grid-3 .pane-menu-menu-submenu .menu li {
+    margin: 0;
+    float: none;
+    display: inline-block;
+  }
+}
+
+.grid-9 {
+  padding: 1em;
+  width: 100%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none;
+}
+@media (min-width: 48.0625em) {
+  .grid-9 {
+    width: 74.46809%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+  }
+}

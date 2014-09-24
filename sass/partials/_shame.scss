@@ -1,0 +1,247 @@
+html{
+	height: 100%;
+}
+
+body{
+	height: 100%;
+	margin: 0;
+	background: #fcfcfc;
+}
+
+.grid-3{
+	background: $jhm-blue;
+	box-shadow: 0 0 10px black;
+
+	.pane-system-main-menu{
+		text-align: center;
+		.menu{
+			width: 100%;
+			display: inline-block;
+			list-style-type: none;
+      		text-align: center;
+     		padding-top: 1em;
+    		padding: 0;
+		    // margin-top: 2em;
+		    // margin-bottom: 2em;
+		    li{
+		    	float: left;
+		    	list-style: none;
+		    	margin: 0;
+		    	width: 33%;
+		    	:hover{
+				    background: $jhm-yellow;
+				    margin: 0;
+				    a{
+				        color: black;
+				    }
+				}
+		    }
+	  
+			a{
+			    font-family: $font-main-menu;
+			    color: white;
+			    text-decoration: none;
+			    font-size: 150%;
+			    text-transform: uppercase;
+			    line-height: 2em;
+		        height: 100%;
+		        width: 100%;
+		        display: block;
+			}
+		}
+	}
+
+	.pane-menu-menu-submenu{
+		text-align: center;
+		.menu{
+			display: inline-block;
+			list-style-type: none;
+			li{
+				float: left;
+				list-style: none;
+			}
+			.icon{
+				clear: both;
+				display: block;
+				margin: 0 auto;
+				text-align: center;
+				font-size: 24px;
+				width: 40px;
+				height: 40px;
+				padding-top: 8px;
+				border: 1px solid none;
+
+			}
+			.title{
+				// font-size: 65%;
+				display: none;
+			}
+			a{
+			    font-family: $font-main-menu;
+			    color: white;
+			    text-decoration: none;
+			    text-transform: uppercase;
+		    	:hover{
+			        background: $jhm-yellow;
+		        	border: 1px solid none;
+		        	border-radius: 50%;
+		        	width: 40px;
+		        	height: 40px;
+		        	color: black;
+		        }
+		    }
+		}
+	}
+
+	@include grid-span(12);
+	@include breakpoint($narrow){
+
+		.pane-responsive-dropdown-menus-main-menu{
+			display: block;
+			float: left;
+			padding-top: 1em;
+			padding-left: 1em;
+			font-family: $font-main-menu;
+			color: white;
+			text-transform: uppercase;
+			.toggle-help{
+				width: 100px;
+			}
+			.main-menu{
+				li.menu-item{
+					a{
+						text-decoration: none;
+						color: white;
+						display: inline-block;
+						padding: 0.25em;
+						width: 100%;
+						text-align: center;
+					}
+					:hover{
+						background: $jhm-yellow;
+						color: black;
+					}
+				}
+			}
+
+
+		}
+		.pane-menu-menu-submenu{
+			.menu{
+				padding: 0;
+				float: right;
+				display: block;
+				width: 60px;
+			}
+		}
+		.pane-system-main-menu{
+			display: none;
+		}
+	}
+	.pane-page-logo{
+		width: 300px;
+		height: 300px;
+		left: 50%;
+		margin-left: -135px;
+		position: absolute;
+		.pane-content{
+			// padding: 1em 0.5em;
+			padding: 0.25em;
+			width: 300px;
+			display: block;
+			margin: 0 auto;
+		}
+		img{
+			width: 200px;
+			height: auto;
+			border: 2px solid white;
+			border-radius: 100px;
+			display: block;
+			margin: 0 auto;
+		}
+	}
+
+
+	@include breakpoint($normal){
+		@include grid-span(3);
+		
+		height: 100%;
+		position: fixed;
+		margin-right: 33%;
+		padding-top: 2em;
+
+		.pane-responsive-dropdown-menus-main-menu{
+			display: none;
+		}
+		
+		.pane-page-logo{
+			position: relative;
+			padding: 0;
+			width: 100%;
+			height: auto;
+			margin-left: 0;
+			left: 0;
+			.pane-content{
+				width: 95%;
+			}
+
+			img{
+				margin: 0;
+				width: 300px;
+				height: auto;
+				border: 2px solid white;
+				border-radius: 150px;
+			}
+		}
+		.pane-fblikebutton-fblikebutton-static-block{
+			.pane-content{
+				iframe{
+					margin: 0 auto;
+					display: block;
+				}
+			}
+		}
+
+		.pane-system-main-menu{
+			display: block;
+			.menu{
+				li{
+					width: 100%;
+					padding: 0;
+				}
+				a:hover{
+					color: black;
+				}
+			}
+
+		}
+		.pane-menu-menu-submenu{
+			text-align: justify;
+			.menu{
+				padding: 0;
+				width: 100%;
+				text-align: center;
+				li{
+					margin: 0;
+					float: none;
+					display: inline-block;
+				}
+			}
+		}
+
+
+
+	}
+
+
+
+}
+
+.grid-9{
+	padding: 1em;
+	@include grid-span(12);
+	@include breakpoint($normal){
+		@include grid-span(9, 4);
+		
+	}
+}

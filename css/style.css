@@ -156,6 +156,8 @@ body {
 .grid-3 .pane-menu-menu-submenu .menu .title {
   font-size: 85%;
   padding: 10%;
+  letter-spacing: 2px;
+  font-weight: 700;
 }
 .grid-3 .pane-menu-menu-submenu .menu a {
   font-family: "Open Sans Condensed", sans-serif;

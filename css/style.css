@@ -154,7 +154,8 @@ body {
   display: none;
 }
 .grid-3 .pane-menu-menu-submenu .menu .title {
-  font-size: 65%;
+  font-size: 85%;
+  padding: 10%;
 }
 .grid-3 .pane-menu-menu-submenu .menu a {
   font-family: "Open Sans Condensed", sans-serif;
@@ -165,7 +166,6 @@ body {
 .grid-3 .pane-menu-menu-submenu .menu a :hover {
   background: #dccf63;
   border: 1px solid none;
-  border-radius: 50%;
   width: 40px;
   height: 40px;
   color: black;

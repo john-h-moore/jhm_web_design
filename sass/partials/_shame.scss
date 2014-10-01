@@ -76,8 +76,10 @@ body{
 				display: none;
 			}
 			.title{
-				font-size: 65%;
+				font-size: 85%;
+				// font-size: 65%;
 				// display: none;
+				padding: 10%;
 			}
 			a{
 			    font-family: $font-main-menu;
@@ -87,7 +89,7 @@ body{
 		    	:hover{
 			        background: $jhm-yellow;
 		        	border: 1px solid none;
-		        	border-radius: 50%;
+		        	// border-radius: 50%;
 		        	width: 40px;
 		        	height: 40px;
 		        	color: black;

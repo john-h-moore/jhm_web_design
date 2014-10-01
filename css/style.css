@@ -180,6 +180,10 @@ body {
   .grid-3 .pane-menu-menu-submenu .pane-content .menu li {
     display: inline-block;
   }
+  .grid-3 .pane-menu-menu-submenu .pane-content .menu li .leaf {
+    padding: 0;
+    padding-top: 0.5em;
+  }
 }
 @media (max-width: 48em) {
   .grid-3 .pane-responsive-dropdown-menus-main-menu {

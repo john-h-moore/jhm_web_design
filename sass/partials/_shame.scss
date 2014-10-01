@@ -110,6 +110,10 @@ body{
 					display: inline;
 					li{
 						display: inline-block;
+						.leaf{
+							padding: 0;
+							padding-top: 0.5em;
+						}
 					}
 				}
 			}

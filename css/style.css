@@ -150,8 +150,11 @@ body {
   padding-top: 8px;
   border: 1px solid none;
 }
-.grid-3 .pane-menu-menu-submenu .menu .title {
+.grid-3 .pane-menu-menu-submenu .menu .icon {
   display: none;
+}
+.grid-3 .pane-menu-menu-submenu .menu .title {
+  font-size: 65%;
 }
 .grid-3 .pane-menu-menu-submenu .menu a {
   font-family: "Open Sans Condensed", sans-serif;

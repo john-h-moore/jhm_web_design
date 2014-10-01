@@ -169,6 +169,18 @@ body {
   background: #dccf63;
   color: black;
 }
+@media (max-width: 25em) {
+  .grid-3 .pane-menu-menu-submenu {
+    margin-top: 150px;
+  }
+  .grid-3 .pane-menu-menu-submenu .menu {
+    float: none;
+    display: inline;
+  }
+  .grid-3 .pane-menu-menu-submenu .menu li {
+    display: inline-block;
+  }
+}
 @media (max-width: 48em) {
   .grid-3 .pane-responsive-dropdown-menus-main-menu {
     display: block;
@@ -224,18 +236,6 @@ body {
   border-radius: 75px;
   display: block;
   margin: 0 auto;
-}
-@media (max-width: 25em) {
-  .grid-3 .pane-menu-menu-submenu {
-    margin-top: 150px;
-  }
-  .grid-3 .pane-menu-menu-submenu .menu {
-    float: none;
-    display: inline;
-  }
-  .grid-3 .pane-menu-menu-submenu .menu li {
-    display: inline-block;
-  }
 }
 @media (min-width: 48.0625em) {
   .grid-3 {

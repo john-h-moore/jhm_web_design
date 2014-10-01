@@ -101,6 +101,18 @@ body{
 	}
 
 	@include grid-span(12);
+	@include breakpoint($small){
+		.pane-menu-menu-submenu{
+			margin-top: 150px;
+			.menu{
+				float: none;
+				display: inline;
+				li{
+					display: inline-block;
+				}
+			}
+		}
+	}
 	@include breakpoint($narrow){
 
 		.pane-responsive-dropdown-menus-main-menu{

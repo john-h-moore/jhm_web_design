@@ -20,5 +20,6 @@ $breakpoint-no-query-fallbacks: true;
 $breakpoint-to-ems: true;
 
 //$breakpoints: add-breakpoint('sample breakpoint', 800px);
+$small: max-width 400px;
 $narrow: max-width 768px;
 $normal: min-width 769px;

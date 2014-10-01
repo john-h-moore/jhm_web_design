@@ -173,11 +173,11 @@ body {
   .grid-3 .pane-menu-menu-submenu {
     margin-top: 150px;
   }
-  .grid-3 .pane-menu-menu-submenu .menu {
+  .grid-3 .pane-menu-menu-submenu .pane-content .menu {
     float: none;
     display: inline;
   }
-  .grid-3 .pane-menu-menu-submenu .menu li {
+  .grid-3 .pane-menu-menu-submenu .pane-content .menu li {
     display: inline-block;
   }
 }

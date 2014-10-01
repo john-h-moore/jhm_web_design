@@ -104,11 +104,13 @@ body{
 	@include breakpoint($small){
 		.pane-menu-menu-submenu{
 			margin-top: 150px;
-			.menu{
-				float: none;
-				display: inline;
-				li{
-					display: inline-block;
+			.pane-content{
+				.menu{
+					float: none;
+					display: inline;
+					li{
+						display: inline-block;
+					}
 				}
 			}
 		}

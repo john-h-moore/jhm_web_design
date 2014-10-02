@@ -180,6 +180,7 @@ body {
   }
   .grid-3 .pane-menu-menu-submenu .pane-content .menu li {
     display: inline-block;
+    float: none;
   }
   .grid-3 .pane-menu-menu-submenu .pane-content .menu li .leaf {
     padding: 0;
@@ -238,7 +239,7 @@ body {
   width: 200px;
   height: auto;
   border: 2px solid white;
-  border-radius: 75px;
+  border-radius: 100px;
   display: block;
   margin: 0 auto;
 }

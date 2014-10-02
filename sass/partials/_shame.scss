@@ -111,6 +111,7 @@ body{
 					display: inline;
 					li{
 						display: inline-block;
+						float: none;
 						.leaf{
 							padding: 0;
 							padding-top: 0.5em;
@@ -184,8 +185,8 @@ body{
 			// width: 150px;
 			height: auto;
 			border: 2px solid white;
-			// border-radius: 100px;
-			border-radius: 75px;
+			border-radius: 100px;
+			// border-radius: 75px;
 			display: block;
 			margin: 0 auto;
 		}

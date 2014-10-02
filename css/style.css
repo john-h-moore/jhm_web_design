@@ -170,6 +170,23 @@ body {
   height: 40px;
   color: black;
 }
+.grid-3 .responsive-menus.responsive-menus-0-0.responsified {
+  font-family: "Open Sans Condensed", sans-serif;
+  text-transform: uppercase;
+  color: white;
+}
+.grid-3 .responsive-menus.responsive-menus-0-0.responsified .menu-toggle {
+  display: none;
+}
+.grid-3 .responsive-menus.responsive-menus-0-0.responsified .responsive-menus-simple {
+  background: #3a3842;
+}
+.grid-3 .responsive-menus.responsive-menus-0-0.responsified .responsive-menus-simple ul li:hover {
+  background: #dccf63;
+}
+.grid-3 .responsive-menus.responsive-menus-0-0.responsified .responsive-menus-simple ul li:hover a {
+  color: black;
+}
 @media (max-width: 25em) {
   .grid-3 .pane-menu-menu-submenu {
     margin-top: 150px;

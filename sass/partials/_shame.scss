@@ -102,6 +102,31 @@ body{
 	}
 
 	@include grid-span(12);
+		.responsive-menus.responsive-menus-0-0.responsified{
+		font-family: $font-main-menu;
+		text-transform: uppercase;
+		color: white;
+		.menu-toggle{
+			display: none;
+		}
+		.responsive-menus-simple{
+			background: $jhm-blue;
+
+			ul{
+				li{
+			    	&:hover{
+					    background: $jhm-yellow;
+					    a{
+					        color: black;
+					    }
+					}
+
+				}
+			}
+
+		}
+
+	}
 	@include breakpoint($small){
 		.pane-menu-menu-submenu{
 			margin-top: 150px;

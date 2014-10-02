@@ -6,7 +6,6 @@ body{
 	height: 100%;
 	margin: 0;
 	background: #fcfcfc;
-	text-align: justify;
 }
 
 .grid-3{
@@ -296,6 +295,7 @@ body{
 }
 
 .grid-9{
+	text-align: justify;
 	padding: 1em;
 	@include grid-span(12);
 	@include breakpoint($normal){

@@ -215,7 +215,7 @@ body {
     padding: 0;
     float: right;
     display: block;
-    width: 120px;
+    width: 60px;
   }
   .grid-3 .pane-system-main-menu {
     display: none;
@@ -235,7 +235,7 @@ body {
   margin: 0 auto;
 }
 .grid-3 .pane-page-logo img {
-  width: 150px;
+  width: 200px;
   height: auto;
   border: 2px solid white;
   border-radius: 75px;

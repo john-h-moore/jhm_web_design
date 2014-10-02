@@ -189,7 +189,7 @@ body {
 }
 @media (max-width: 25em) {
   .grid-3 .pane-menu-menu-submenu {
-    margin-top: 150px;
+    margin-top: 200px;
   }
   .grid-3 .pane-menu-menu-submenu .pane-content .menu {
     float: none;

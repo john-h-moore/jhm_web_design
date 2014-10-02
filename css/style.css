@@ -151,13 +151,10 @@ body {
   border: 1px solid none;
 }
 .grid-3 .pane-menu-menu-submenu .menu .icon {
-  display: none;
+  display: block;
 }
 .grid-3 .pane-menu-menu-submenu .menu .title {
-  font-size: 85%;
-  padding: 10%;
-  letter-spacing: 2px;
-  font-weight: 700;
+  display: none;
 }
 .grid-3 .pane-menu-menu-submenu .menu a {
   font-family: "Open Sans Condensed", sans-serif;
@@ -167,6 +164,10 @@ body {
 }
 .grid-3 .pane-menu-menu-submenu .menu a :hover {
   background: #dccf63;
+  border: 1px solid none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
   color: black;
 }
 @media (max-width: 25em) {
